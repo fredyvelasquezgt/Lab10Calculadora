@@ -1,6 +1,82 @@
-body {
-    background: #F87060;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body{
+    background-color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.col{
+    padding-top: 0rem;
+    border-style: solid;
+    border-color: gray;
+    border-style: dotted;
+    border-radius: 2rem;
+    border-width: 0px;
+    height: 150px ;
+    width: 50px;
+    text-align: center;
+    
+}
+
+.calculator-numbers{
+  
+}
+
+.calculator-numbers:hover{
+    background-color: rgb(236, 163, 28);
+    cursor: pointer;
+}
+
+.calculator-appenders{
+    font-size: 50px;
+    text-align: center;
+    font-weight: lighter;
+    color: #999999;
+}
+
+.calculator-operators:hover{
+    background-color: #06cc9a;
+    cursor: pointer;
+}
+.operators-caption{
+    font-size: 50px;
+    text-align: center;
+    font-weight: lighter;
+    color: #000000;
+
+}
+
+.modifier-caption{
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+.modifier-operator{
+}
+
+.modifier-operator-1{
+}
+
+
+.modifier-caption-1{
+    font-size: 50px;
+    text-align: center;
+    color:#000000;
+}
+.modifier-operator-1:hover{
+    background-color: #06cc9a;
+    cursor: pointer;
+}
+
+.modifier-operator:hover{
+    background-color: #06cc9a;
+    cursor: pointer;
+}
+
+
+
+.calc-screen-caption{
+    padding-top: 2rem;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
